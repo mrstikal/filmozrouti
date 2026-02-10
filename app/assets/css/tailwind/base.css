@@ -1,0 +1,13 @@
+@layer base {
+    body {
+        @apply font-sans bg-gray-900 text-gray-300 tracking-wide;
+    }
+
+    button {
+        @apply cursor-pointer;
+    }
+
+    button:disabled {
+        @apply cursor-not-allowed opacity-30;
+    }
+}

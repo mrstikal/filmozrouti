@@ -1,6 +1,6 @@
-// @ts-check
 import withNuxt from './.nuxt/eslint.config.mjs'
+import vuePlugin from 'eslint-plugin-vue'
 
 export default withNuxt(
-  // Your custom configs here
+  vuePlugin.configs['flat/recommended']
 )

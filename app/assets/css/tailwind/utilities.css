@@ -1,0 +1,17 @@
+@layer utilities {
+    .movie-poster-tooltip {
+        @apply max-w-[calc(100vw-2rem)] md:max-w-[calc(100vw-4rem)];
+    }
+
+    .menu-item {
+        @apply text-gray-300 hover:text-lime-400 transition;
+    }
+
+    .menu-item-active {
+        @apply text-lime-400 underline underline-offset-7 decoration-2;
+    }
+
+    .hamburger-menu {
+        @apply flex flex-col gap-1.5 ml-auto md:hidden cursor-pointer;
+    }
+}
