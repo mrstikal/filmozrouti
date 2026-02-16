@@ -147,4 +147,4 @@ This keeps the token out of browser network requests.
 
 ## License
 
-This repository is for learning/demo purposes. Add a license file if you plan to publish it publicly.
+MIT
